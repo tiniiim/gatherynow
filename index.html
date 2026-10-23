@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Doorverwijzen...</title>
-  <!-- Directe JavaScript redirect -->
   <script>
-    window.location.replace("https://script.google.com/macros/s/AKfycby2irLcdK79FDH2SCyxvr04DMHGarXJl4E6O6VydNUpZs66OKC7rV3x8aNLsjkzAcpOOA/exec");
+    // Plak hieronder je werkende Apps Script URL tussen de aanhalingstekens:
+    const targetUrl = "https://script.google.com/macros/s/AKfycby2irLcdK79FDH2SCyxvr04DMHGarXJl4E6O6VydNUpZs66OKC7rV3x8aNLsjkzAcpOOA/exec";
+
+    // Directe doorverwijzing
+    window.location.replace(targetUrl);
   </script>
-  <!-- Fallback als JavaScript uitstaat -->
-  <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycby2irLcdK79FDH2SCyxvr04DMHGarXJl4E6O6VydNUpZs66OKC7rV3x8aNLsjkzAcpOOA/exec">
 </head>
 <body>
   <p>Bezig met laden...</p>
